@@ -1,0 +1,780 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width: 1650px) and (max-width: 2560px) {
+
+}
+@media only screen and (min-width: 1367px) and (max-width: 2560px) {
+    body .container{max-width: 1440px;}
+}
+@media only screen and (min-width: 1367px) and (max-width: 1650px) {
+
+}
+@media only screen and (min-width: 1365px) and (max-width: 1440px) {
+    body .container {
+        max-width: 1300px;
+    }
+    .how_it_works::after {
+        top: -77px;
+    }
+    .how_it_card {
+        padding: 60px 35px 45px;
+    }
+    .how_it_card {
+        min-height: 446px;
+    }
+    .home-banner .banner-content h2 {
+        font-size: 47px;
+        line-height: 70px;
+    }
+
+    .home-banner .log_form {
+        background-color: #fff;
+        padding: 40px 20px;
+        position: relative;
+        top: 50px;
+        border-radius: 5px;
+    }
+    .home-banner {
+        min-height: 625px;
+    }
+    .home-banner .log_form .foot_para p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #8898AA;
+        line-height: 21px;
+        margin-bottom: 25px;
+        padding-top: 10px;
+    }
+    .home-banner .log_form .custom-control-label {
+        font-size: 15px;
+    }
+    .forgot_pass {
+        font-size: 15px;
+    }
+    .home-banner .banner-content p {
+        margin: 15px 0 20px;
+    }
+    .nav_bx ul li a {
+        color: #32325C;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    body .container{max-width: 1170px;}
+    .how_it_works::after {
+        top: -77px;
+    }
+}
+@media (max-width:1199px) {
+    .site-footer::after {
+        top: -47px;
+    }
+    .how_it_card {
+        padding: 45px 15px 45px;
+        min-height: 432px;
+        background-color: #fff;
+    }
+    .how_it_works::after {
+        top: -50px;
+    }
+
+    .home-banner .log_form {
+        padding: 30px 15px;
+        top: 18px;
+    }
+    .home-banner .log_form .custom-control-label {
+        font-size: 14px;
+        color: #8898AA;
+    }
+
+    .home-banner .log_form .form-control {
+        height: 45px;
+        font-size: 15px;
+    }
+    .forgot_pass {
+        font-size: 14px;
+    }
+    .home-banner .log_form .common-btn {
+        font-size: 16px;
+        padding: 12px 5px;
+    }
+    .remember-sec {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .home-banner .log_form .top_bx p {
+        font-size: 15px;
+        margin: 10px 0 15px;
+    }
+
+    .home-banner .log_form .foot_para p {
+        font-size: 12px;
+        line-height: 21px;
+        margin-bottom: 15px;
+        padding-top:5px;
+    }
+    .home-banner .log_form .foot_para h1 {
+        font-size: 14px;
+    }
+    .home-banner .log_form .top_bx h1 {
+        font-size: 25px;
+    }
+    .home-banner .banner-content h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .home-banner {
+        min-height: 500px;
+    }
+    .blue_bx ul li.list-inline-item {
+        margin-right: 70px;
+        font-size: 16px;
+    }
+    .index_main_heading {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .why_choose ul li .media .media-body p {
+        margin-bottom: 20px;
+    }
+
+    .small_fild .text_bx .index_main_heading {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .small_fild .text_bx p {
+        font-size: 20px;
+    }
+
+    .know_about .index_main_heading {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .header-menu ul li a {
+        padding: 0px 12px;
+    }
+    .nav_bx ul li a {
+        padding: 10px 8px;
+    }
+    .nav_bx ul li {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .inner-box {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .question_bx .btn-area .common-btn {
+        margin: 0px 0px;
+    }
+    .bottom_question_area .right_part .bottom_bx {
+        padding: 20px 12px;
+    }
+    .bottom_question_area .right_part .bottom_bx .link {
+        font-size: 13px;
+    }
+    .bottom_question_area .right_part .bottom_bx .common-btn.wht {
+        margin: 0px 10px;
+        margin-left: 0px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .site-footer::after {
+        top: -37px;
+    }
+
+    .how_it_card {
+        padding: 60px 30px 45px;
+        border-bottom: 7px solid #0070C0;
+        margin-bottom: 30px;
+    }
+    .index_main_heading {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .how_it_works::before {
+        width: 100%;
+        height: 100%;
+    }
+    .how_it_works::after {
+        display: none;
+    }
+    .wrp_for_zindex {
+        padding: 30px 0px;
+    }
+    .dummy_chat_area .text_bx h1 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .dummy_chat_area {
+        margin-bottom: 0px;
+        padding: 50px 0px;
+    }
+    .why_choose ul li .media .media-body p {
+        margin-bottom: 15px;
+    }
+
+    .why_choose .index_main_heading {
+        font-size: 30px;
+        margin-bottom:20px;
+        padding-top: 0px !important;
+    }
+
+    .small_fild .text_bx{
+        text-align: center;
+    }
+    .small_fild .text_bx .index_main_heading{
+        text-align: center !important;
+    }
+    .small_fild .text_bx .index_main_heading {
+        text-transform: none;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .small_fild .text_bx{
+        padding-bottom: 30px;
+    }
+    .small_fild .button_bx{
+        text-align: center !important;
+    }
+    .d_none_sm{
+        display: none;
+    }
+    .know_about .index_main_heading {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .know_about {
+        padding: 30px 0px 50px;
+    }
+    .small_fild .inner_top {
+        border-top: 1px solid #ebebeb;
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+    .main_body {
+        padding: 200px 0px 85px;
+        background-color: #FAFAFA;
+    }
+    .navbar-transparent {
+        background-color: #fcfcfc;
+    }
+    .mr_none {
+        margin: 0px;
+    }
+    .header-menu ul li a {
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+    .header-menu ul li:last-child a {
+        padding: 7px 10px;
+    }
+    .main_body {
+        padding: 67px 0px 85px;
+        background-color: #FAFAFA;
+    }
+
+    .d_none_mob{
+        display: none;
+    }
+    .top-right-btn li h1 {
+        font-size: 14px;
+    }
+    .top-right-btn .headr-prof-pic {
+        width: 40px;
+        height: 40px;
+    }
+    .top-right-btn li h1 {
+        white-space: nowrap;
+        overflow: hidden;
+        width: 70px;
+        text-overflow: ellipsis;
+    }
+    .inner-box {
+        border-radius: 10px;
+        padding: 0px 15px 0px 15px;
+        height: 125px;
+        margin-bottom: 0px;
+        background-color: #0070C0;
+    }
+    .inner-box .media .media-left h1 {
+        font-size: 18px;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+    .inner-box .media .media-left h2 {
+        font-size: 13px;
+    }
+    .bottom_question_area .right_part.table_right .top_bx h2 {
+        font-size: 18px;
+    }
+    .bash_nw_bx {
+        position: relative;
+        top: -50px;
+    }
+    .main_body.dashboard .nav_bx {
+        background-color: #fff;
+        padding: 50px 0px 85px;
+    }
+    .bottom_question_area .right_part .bottom_bx h1 {
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: bold;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    .top-right-btn li h1 {
+        font-size: 12px;
+    }
+
+    .inner-box {
+        height: 100px;
+    }
+    .bottom_question_area .right_part .bottom_bx {
+        background-color: #8898AA;
+        border-radius: 10px;
+        padding: 20px 12px;
+    }
+
+    .question_bx .btn-area .common-btn {
+        margin: 0px 0px;
+    }
+    .bottom_question_area .right_part .bottom_bx {
+        padding: 20px 12px;
+    }
+    .bottom_question_area .right_part .bottom_bx .link {
+        font-size: 13px;
+    }
+    .bottom_question_area .right_part .bottom_bx .common-btn.wht {
+        margin: 0px 10px;
+        margin-left: 0px;
+    }
+
+    .user-left-side ul {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width:767px) {
+    .index_main_heading {
+        font-size: 23px;
+    }
+    .dummy_chat_area .text_bx h1 {
+        font-size: 17px;
+        line-height: 27px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .how_it_works::before {
+        width: 100%;
+        height: 100%;
+    }
+
+    .how_it_card h1 {
+        min-height: auto;
+    }
+    .how_it_card {
+        padding: 25px 15px 25px;
+        min-height: initial;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+    .how_it_card img {
+        margin-bottom: 15px;
+    }
+
+    .know_about .index_main_heading {
+        font-size: 23px;
+        line-height: normal;
+        margin-bottom: 20px;
+        text-align: center !important;
+    }
+
+    .small_fild .text_bx .index_main_heading {
+        font-size: 23px;
+        line-height: normal;
+        margin-bottom: 5px;
+        text-align: center !important;
+    }
+    .footer-menu ul li a {
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 3px;
+    }
+    .footer-title {
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer-logo a img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .site-footer {
+        padding: 35px 0 20px;
+        position: relative;
+        background: #F6F9FC;
+    }
+    .copyright-sec {
+        margin-top: 20px;
+        padding-top: 20px;
+        font-size: 13px;
+    }
+    .site-footer::after {
+        top: -12px;
+    }
+
+    .footer-menu{
+        margin-bottom: 15px;
+    }
+    .footer-social ul li a {
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    .footer-logo p {
+        font-size: 13px;
+    }
+    .small_fild .text_bx p {
+        font-size: 18px;
+        color: #8898AA;
+        margin-bottom: 15px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .small_fild .common-btn{
+        padding: 13px 19px;
+        -webkit-box-shadow: 0px 3px 6px rgba(0, 112, 192, 0.2784313725490196);
+        margin: 0 5px !important;
+        box-shadow: 0px 3px 6px rgba(0, 112, 192, 0.2784313725490196);
+    }
+    .small_fild .button_bx{
+        text-align: center !important;
+    }
+    .main_body {
+        padding: 200px 0px 30px;
+    }
+    .small_fild .inner_top {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+
+    .navbar-transparent {
+        background-color: #fff;
+    }
+
+    .menu_berger {
+        display: inline-block;
+    }
+    .menu_berger {
+        position: absolute;
+        top: -30px;
+        color: #0070c0;
+        font-size: 25px;
+        right: 7px;
+    }
+    .menu_berger:hover {
+        color: #0070c0;
+    }
+    .header-menu ul li {
+        display: block;
+        text-align: center;
+        margin-bottom:5px;
+    }
+    .mr_none {
+        margin: 0px;
+    }
+    .header-menu ul {
+        display: none;
+        padding-top: 15px;
+    }
+
+    .main_body {
+        padding: 55px 0px 0px;
+    }
+    /*    .header-menu ul li:last-child a {
+            padding: 10px 30px;
+            margin-left:0px;
+        }*/
+
+    .header-menu ul li a {
+        font-size: 14px;
+    }
+
+    .why_choose {
+        padding-bottom: 50px;
+    }
+
+    .home-banner .banner-content h2 {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .home-banner .banner-content p {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0px 0 10px;
+        text-align: center;
+    }
+    .home-banner .log_form {
+        padding: 20px 15px;
+        top: 0px;
+    }
+    .home-banner .banner-content .common-btn {
+        font-weight: 600;
+        padding: 13px 45px;
+        margin: 0 auto;
+        display: block;
+        width: 90%;
+    }
+    .home-banner .banner-content .link {
+        padding-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+        text-align: center;
+    }
+    .home-banner .banner-content {
+        padding-top: 20px;
+    }
+
+    .home-banner .banner-content .link {
+        font-size: 16px;
+        color: #0070C0;
+        line-height: 16px;
+        font-weight: bold;
+        display: inline-block;
+        cursor: pointer;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        display: block;
+        text-align: center;
+        border-radius: 5px;
+        background-color: hsla(0, 0%, 100%, 0.6);
+    }
+    .home-banner .log_form .foot_para p {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    .blue_bx ul li.list-inline-item {
+        margin-right: 0px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .blue_bx ul li.list-inline-item:last-child{
+        margin-bottom:0px;
+    }
+    .mb_text_center{
+        text-align: center;
+    }
+    .dummy_chat_area {
+        padding: 30px 0px;
+        padding-bottom: 30px;
+    }
+    .dummy_chat_area .text_bx p {
+        font-size: 14px;
+    }
+
+    .dummy_chat_area .text_bx{
+        padding-bottom: 30px;
+    }
+    .how_it_works {
+        position: relative;
+        background-color: #F6F9FC;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .how_it_card h1 {
+        font-size: 16px;
+        color: #32325C;
+        font-weight: bold;
+        line-height: 26px;
+        margin-bottom: 10px;
+        min-height:inherit;
+    }
+
+    .know_about .text_bx p {
+        font-size: 14px;
+        color: #8898AA;
+        display: block;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+
+    .testi_bx {
+        padding:20px 15px;
+        border-radius: 10px;
+        background-color: #fff;
+        margin-bottom: 30px;
+    }
+    .testi_bx .media{
+        display: block;
+    }
+    .testi_bx .media .mn_imgone {
+        width: 80px;
+        height: 80px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .testi_bx .media-body h5 {
+        font-size: 16px;
+        color: #32325C;
+        font-weight: bold;
+        padding-bottom: 3px;
+    }
+    .testi_bx .media-body .rating {
+        padding-bottom: 5px;
+        display: block;
+        padding-top: 3px;
+    }
+    .small_heading {
+        text-align: center;
+    }
+
+    .know_about .img_bx{
+        margin-bottom: 15px;
+    }
+
+    .signup-box {
+        max-width: 1000px;
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .signup-box .signup-left {
+        height: auto;
+        display: block;
+        padding: 20px 15px;
+        max-width: 100%;
+    }
+    .signup-box .signup-left .site-logo-sec {
+        position: relative;
+        top: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .signup-box .signup-left .signup-div {
+        position: relative;
+    }
+    .signup-box .signup-left .signup-div .account-content h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .signup-box .signup-left .signup-div .account-content p {
+        margin: 0 auto 15px;
+    }
+    .signup-box .signup-right .create-account h2 {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+
+
+    .inner-box {
+        padding: 0px 20px 0px 20px;
+        height: 125px;
+        margin-bottom: 20px;
+    }
+    .bash_nw_bx {
+        position: relative;
+        top: 0;
+    }
+    .main_body.dashboard .nav_bx {
+        background-color: #fff;
+        padding: 30px 0px 30px;
+    }
+    .bottom_question_area .left_part.table-bx .table td {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .bottom_question_area .left_part.table-bx {
+        margin-bottom: 20px;
+    }
+    .header-menu-two .header-top {
+        display: block !important;
+        padding-top: 20px;
+    }
+    .header-menu-two .header-top li{
+        display: block;
+    }
+    .header-menu-two .header-top li a{
+        display: block;
+    }
+
+    .menu_label{
+        display: none;
+    }
+
+    #nav-toggle_six {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        right: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 16px;
+        top: -5px;
+        color: #32325c;
+    }
+
+    ul.nw-drp li a {
+        background-color: #ffffff;
+    }
+
+    .question_bx .btn-area .common-btn {
+        font-size: 14px;
+        min-width: 115px;
+        padding: 10px 5px;
+    }
+    .bottom_question_area .question_bx .qu_big_hd {
+        font-size: 20px;
+        font-weight: bold;
+        color: #32325C;
+        padding-bottom: 20px;
+        line-height: 30px;
+    }
+    .bottom_question_area .left_part .progress {
+        margin-bottom: 50px;
+    }
+
+
+    .header-menu ul li a.header_btn {
+        padding: 10px 46px;
+        margin-left: 0px !important;
+    }
+}
+
+@media (max-width:425px){
+
+}
+
+@media (max-width:375px){
+
+
+}
+
+@media (min-width:320px) and (max-width:479px){
+
+
+}
+@media (max-width:320px){
+
+
+
+
+}

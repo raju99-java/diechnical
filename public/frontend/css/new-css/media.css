@@ -1,0 +1,789 @@
+@media (min-width: 1300px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1240px;
+}
+}
+
+@media (min-width: 1201px) and (max-width: 1299px) {
+.skill-conts .ml-xl-5, .skill-conts .mx-xl-5 {margin-left: 1rem!important;}
+.skill-conts .pl-xl-5, .skill-conts .px-xl-5 {padding-left: 2rem!important;}
+}
+@media (min-width: 1200px) {
+    .category-section .container {
+        max-width: 1300px;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        border-top: 5px solid #f56752;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        box-shadow: 0 12px 15px rgb(140 152 164 / 10%);
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu .hs-has-sub-menu .dropdown-menu {
+        border-color: #00c9a7;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu .hs-has-sub-menu .dropdown-menu {
+        margin-top: -1.32rem;
+    }
+    .navbar-expand-lg .navbar-promo {
+        border-bottom-right-radius: 15px;
+    }
+    .max-overs{max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; max-width: 100%;}
+.width-overs{min-width: 250px; max-width: 250px;}
+}
+
+@media (min-width: 768px) {
+section.page-header-area.my-course-area ul {
+    min-height: 600px;
+    border-right: 1px solid #ebecec;
+}
+}
+
+@media (max-width: 1199px) {
+    .slick-gutters-3 .slick-slide {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .category-section .card {
+        padding: 20px 15px;
+        border-radius: 30px;
+        box-shadow: none;
+    }
+    .category-section .card-body .media-body {
+        padding-left: 15px;
+    }
+    .item-content.card {
+        margin: 0;
+    }
+    .slick-slider .slick-arrow-right {
+        right: -30px;
+    }
+    .slick-slider .slick-arrow-left {
+        left: -30px;
+    }
+    .vendor-form .custom-checkbox {
+        width: 32%;
+    }
+    .btn-blue-md {padding: 6px 30px;}
+}
+@media (max-width: 1024px) {
+    .course-bor .btn {
+        font-size: 14px;
+    }
+    header .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+}
+@media (max-width: 991.98px) {
+    .navbar-expand-lg .navbar-brand,
+    .navbar-expand-lg .navbar-brand > img {
+        width: auto;
+        max-width: 8.5rem;
+    }
+    .header .navbar-expand-lg .nav-link {
+        font-size: 18px;
+        color: #000;
+        text-transform: capitalize;
+        padding-left: 1.5rem;
+        font-weight: 600;
+        font-family: "Proxima Nova Lt";
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .ver-serch {right: 30px;top: 11px;}
+    header .navbar-nav .nav-link.carton-mobile {
+    width: 40px;
+    height: 40px;
+    padding: 8px 6px !important;
+}
+.header .navbar-nav .dropdown-menu.hs-mega-menu {
+    width: 100% !important;
+    min-width: 300px;
+    box-shadow: 0px 10px 19px -10px rgb(0 0 0 / 50%) !important;
+    overflow-x: auto;
+    max-height: 500px;
+}
+.cart-nav-left {
+        padding-right: 0;
+    }
+    .navbar-promo-icon {
+    max-width: 82px;
+    margin-right: 15px;
+}
+.pr-90{
+    padding-right: 50px;
+}
+.skill-ul li {
+    -ms-flex: 0 0 12.333333%;
+    flex: 0 0 12.333333%;
+    max-width: 12.333333%;
+}
+}
+@media (max-width: 991px) {
+    .frequently-bought {
+        padding: 30px 15px;
+    }
+    .frequently-middle .media-object img {
+        width: 80px;
+    }
+    .frequently-middle-price {
+        position: relative;
+        font-size: 15px;
+        margin: 0 0 5px;
+    }
+    .frequently-middle-con .media-body {
+        padding-right: 0;
+    }
+    .frequently-middle h4 {
+        font-size: 15px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .frequently-middle .media-object {
+        margin-right: 10px;
+    }
+    .fre-plus {
+        left: 25px;
+        top: -24px;
+        height: 38px;
+        width: 38px;
+    }
+    .frequently-middle h6 {
+        margin-bottom: 2px;
+    }
+    .home-banner {
+        margin: 0 35px;
+    }
+    .container-fluid {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .banner-title {
+        font-size: 50px;
+        line-height: 42px;
+    }
+    .sign-in {
+        display: none;
+    }
+    .main-white {
+        margin: 0 20px;
+    }
+    .frequently-last .btn-lg {
+        padding: 0.8rem 1.2rem;
+        font-size: 19px;
+        border-radius: 18px;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        border-top: 5px solid #f56752;
+        border-bottom-right-radius: 15px !important;
+        border-bottom-left-radius: 15px !important;
+        box-shadow: 0 12px 15px rgb(140 152 164 / 10%);
+        top: 45px;
+        max-width: 90% !important;
+        right: 0 !important;
+    }
+    .navbar-expand-lg .mobile-scroll-m .navbar-nav .dropdown-menu {
+        border-top: 0;
+        border-bottom-right-radius: 15px !important;
+        border-bottom-left-radius: 15px !important;
+        box-shadow: none;
+        top: 0;
+        max-width: 100% !important;
+        right: 0 !important;
+    }
+    header .navbar-promo {
+        border-left: 0;
+    }
+    header .navbar-promo-inner {
+        line-height: 23px;
+    }
+    .header .navbar-nav .dropdown-menu.hs-mega-menu {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+ section.page-header-area.my-course-area ul {
+    padding-right: 10px;
+}
+    header .font-size-1 {
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 767px) {
+    .btn-fixed-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 11111;
+        border-radius: 0;
+        font-size: 22px;
+        padding: 0.55rem 1rem;
+        display: flex;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.08), 0 -4px 12px rgba(0, 0, 0, 0.08);
+    }
+    .btn-fixed-bottom .btn-buy {
+        font-size: 17px;
+        padding: 11px 30px;
+    }
+    .btn-fixed-bottom .btn {
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .btn-fixed-bottom .h2 {
+        font-size: 19px;
+        margin-bottom: 0 !important;
+        display: block;
+        margin-top: 0;
+        font-weight: 900;
+        color: #000;
+    }
+    .btn-fixed-bottom .p {
+        font-size: 15px;
+    }
+    .fixed-bottom-price {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .course-im {
+        margin: auto;
+        width: 100%;
+        border-radius: 15px;
+    }
+    .home-banner {
+        margin: 0 15px;
+        padding: 60px 20px;
+        border-radius: 30px;
+         background-image: url(../img/home-banner.png), url(../img/background-line.png);
+    background-repeat: no-repeat;
+    background-position:right bottom, right center;
+    background-size:contain, cover;
+    }
+    .efa-jobs-banner{
+        background-image:url(../img/efa-job.png), url(../img/line-2.png);
+        background-repeat: no-repeat;
+         background-position:right bottom, right center;
+    background-size:contain, cover;
+
+    }
+    .home-banner-form {
+    margin-top: 35px;
+}
+  
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #sidebarNav .dropdown-item {
+        padding: 0 1.5rem;
+    }
+    .main-white {
+        border-radius: 0;
+        margin: 0 0;
+    }
+    .sidbar-detail {
+        margin-top: 0;
+        padding: 0;
+    }
+    .position-relative.mobile-view-video {
+        width: calc(100% + 206px);
+        margin-left: -103px;
+    }
+    .course-detail-main h1 {
+        font-size: 24px;
+        line-height: normal;
+        color: #3c3b37;
+    }
+    body {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .blue-bg {
+        background-image: none;
+        background-color: #fff;
+    }
+    .blue-bg .text-white {
+        color: #3c3b37 !important;
+    }
+    .blue-bg.text-white {
+        color: #3c3b37 !important;
+    }
+    .blue-bg .avatar-group {
+        display: none;
+    }
+    .blue-bg .font-weight-bold {
+        font-weight: 400 !important;
+    }
+    .blue-bg .sidbar-detail .font-weight-bold {
+        font-weight: 700 !important;
+    }
+    .blue-bg .ul-rate .fa {
+        font-size: 13px;
+        color: #eb8a2f !important;
+    }
+    .blue-bg .yellow-txt {
+        color: #eb8a2f !important;
+    }
+    .author-avar a {
+        color: #00a8ff;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .sidbar-detail .card {
+        box-shadow: none;
+        border-radius: 0;
+        overflow: hidden;
+        border: 0;
+    }
+    .frequently-last {
+        display: block;
+        text-align: center;
+    }
+    .vendor-review-name {
+        font-size: 25px;
+    }
+    .frequently-last-left {
+        width: 100%;
+        line-height: 26px;
+    }
+    .detail-lst-svg svg {
+        filter: brightness(0.5);
+        width: 15px;
+    }
+    .btn-white-o svg {
+        margin-right: 5px;
+        stroke: #0f7c90;
+    }
+    .btn-white-o svg path {
+        fill: #0f7c90;
+    }
+    .btn-white-o {
+        border: 0;
+        padding: 7px 18px;
+        color: #0f7c90;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .course-detail-main .blue-bg p {
+        font-size: 16px;
+        color: #3c3b37 !important;
+        line-height: 22px;
+        font-weight: 400;
+        font-family: "Proxima Nova Rg";
+        margin-bottom: 10px;
+    }
+    .badge-success {
+        padding: 6px 20px;
+        font-size: 75%;
+    }
+    .money-back {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .course-detail-main .font-size-1,
+    .course-detail-main p {
+        font-size: 14px;
+        font-family: "Proxima Nova Rg";
+        font-weight: 400;
+        line-height: 18px;
+    }
+    .students-also-bought .border-top-2 {
+        border-top: 0;
+    }
+    .efa-guarante h2 {
+        font-size: 25px;
+        line-height: 23px;
+    }
+    .efa-guarante svg {
+        width: 50px;
+    }
+    .efa-guarante svg image {
+        width: 50px;
+    }
+    .avatar-xl {
+        width: 91px;
+        height: 91px;
+    }
+    .frequently-middle-rate .star-rating-fre i {
+        font-size: 13px;
+    }
+    .efa-jobs-banner {
+        border-radius: 30px;
+        padding: 0 20px;
+    }
+    .ul-rate .fa {
+        font-size: 15px;
+    }
+    .student-fd-left .display-4 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #ratingdiv .avatar {
+        width: 50px;
+        height: 50px;
+    }
+    .video-player-icon {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+    .curriculum-course .btn {
+        font-size: 13px;
+    }
+    .pos-inherit {
+        position: inherit;
+    }
+    span.card-btn-toggle {
+        position: absolute;
+        right: 5px;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .border-radius-top-right .curriculum-course .card-header {
+        position: relative;
+    }
+    .pl-36 {
+        padding-left: 36px;
+    }
+    
+    .navbar-promo-item {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .fre-plus {
+        left: 25px;
+        top: -63px;
+        height: 38px;
+        width: 38px;
+        border: 0;
+        background-color: #ff9862;
+        box-shadow: none;
+    }
+    #form-submit .form-control {
+        font-size: 16px;
+        height: auto;
+        padding: 0.55rem 1rem;
+    }
+    .navbar-promo-text {
+        font-size: 15px;
+        line-height: 18px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .navbar-promo-icon {
+        max-width: 82px;
+        margin-right: 15px;
+    }
+    .by-user {
+        font-size: 12px;
+    }
+    .hs-has-mega-menu .navbar-promo-link {
+        line-height: 18px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .mb-50 {
+        margin-bottom: 30px;
+    }
+    .cart-tableimg {
+        max-width: 100px;
+        width: 100%;
+    }
+    .cart-pro-name {
+        font-size: 18px;
+        line-height: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .cart-nav .svg-cart {
+        width: 40px;
+        height: 60px;
+        fill: #f56752;
+    }
+    .total-pr {
+        font-size: 20px;
+    }
+    .instructor-img-pro {
+        width: 80px;
+        height: 80px;
+    }
+    .instructor-page .h4 {
+        font-size: 16px;
+    }
+    .list-top-nav h1 {
+        font-size: 22px;
+    }
+    .instructor-page h3 {
+        font-size: 22px;
+    }
+    #form-submit {
+        min-height: inherit;
+    }
+    .forgot-ps-form {
+        padding-top: 40px;
+    }
+    .pt-50 {
+        padding-top: 30px;
+    }
+    .why-choose-sec {
+        display: block;
+    }
+    .course-im {
+        margin: auto;
+    }
+    .why-choose-sec .media {
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+    .vendor-form .form-control {
+        height: 50px;
+    }
+    .colorHolder .havePlace + label {
+        bottom: 3px;
+    }
+    .vendor-page {
+        background-image: none;
+    }
+    .vendor-review p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .btn-greens {
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+    .cart-menu-ic svg {
+        width: 26px;
+        margin-bottom: 0;
+    }
+    .ver-serch .cart-number {
+        top: -7px;
+        right: -9px;
+    }
+    .my-course-content {
+        max-width: 100%;
+    }
+    section.page-header-area.my-course-area ul li a {
+        font-size: 15px;
+    }
+    section.page-header-area.my-course-area ul li {
+        margin-right: 0px;
+        margin-bottom: 0px !important;
+            padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    }
+    .my-courses-area .my-course-search-bar input {
+        padding: 6px 10px 6px 30px;
+        font-size: 15px;
+        background-position: 9px 50%;
+        height: auto;
+    }
+    .my-courses-area .btn-lg {
+        padding: 0.9rem 1rem;
+        font-size: 15px;
+    }
+    .my-course-filter-bar a.btn {
+        padding: 8px 20px;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+    .dropdown-menu .btn-xl {
+        padding: 0.6rem 1.4rem;
+    }
+    .purchase-history-list .purchase-history-course-img {
+        float: inherit;
+    }
+    .purchase-history-list .purchase-history-items {
+        padding: 10px 0;
+    }
+    .navbar-nav-wrap-content svg {
+        margin-bottom: 0;
+    }
+    .header .navbar-nav-item .carton-mobile {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .get-2-course{display: flex;}
+    .get-2-course h5{margin-right: 15px;}
+    .home-bnner-img {
+    margin-top: 0;
+}
+.home-banner .home-bnner-img {
+    margin-top: 40px;
+}
+.btn-add, .btn-remove {
+    padding: 4px 10px;
+    min-width: 84px;
+    font-size: 13px;
+}
+ .ver-serch {right: 10px;top: 11px;}
+ .card-main-in {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+}
+.card-main-out{
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.efajob-banner {background-image: url(../img/home-banner.png), url(../img/efa-jobs/background-line-job.png);
+    background-position:0 50%, 0% 50%; background-size: cover;}
+.efa-skills-banner{background-image: url(../img/efa-jobs/background-line-job.png);}
+.efa-skills-banner .home-banner-form {margin-top: 30px;margin-bottom: 30px;}
+.sort-by-filter {flex-wrap: wrap;}
+.sort-by-filter .form-group {margin-bottom: 5px;}
+.sort-by-filter label {margin-bottom: 4px;max-width: 100%;width: 100%;margin-left: 10px;}
+.media-h3 h3 {font-size: 18px;}
+.skill-enroll li {-ms-flex: 0 0 55px;flex: 0 0 55px;max-width: 55px;}
+
+.certification-shiled {right: -15px;max-width: 70px;}
+.skill-bene .h2 {font-size: 23px;}
+.efa-skills-profile h1 {font-size: 27px;}
+.course-skl .course-skl-img {max-width: 120px;}
+section.page-header-area.my-course-area ul {padding-right: 0;}
+.efaa-stores-link img{width: 140px;}
+}
+@media (max-width: 575px) {
+    .category-section .card .media {
+        display: -ms-flexbox;
+        display: block;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+    }
+    .category-section .card .media img {
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .category-section .card-body .media-body {
+        padding-left: 0;
+    }
+    .slick-gutters-3 .slick-slide {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .category-section h3 {
+        font-size: 16px;
+    }
+    .banner-title {
+        font-size: 32px;
+        line-height: 30px;
+    }
+    .home-banner-form .btn {
+        padding: 0.6rem 1rem;
+    }
+    .home-banner-form .form-control {
+        font-size: 15px;
+    }
+    .slick-slider .slick-arrow-left {
+        left: 0;
+        width: 15px;
+    }
+    .slick-slider .slick-arrow-right {
+        right: -10px;
+        width: 15px;
+    }
+    .position-relative.mobile-view-video {
+        width: calc(100% + 30px);
+        margin-left: -15px;
+    }
+    .avatar-xs {
+        width: 35px;
+        height: 35px;
+    }
+    .frequently-middle-rate {
+        font-size: 11px;
+    }
+    .frequently-middle h4 {
+        line-height: 16px;
+    }
+    .course-detail-main h3 {
+        font-size: 22px;
+    }
+    .ver-serch {
+        margin-right: 0;
+    }
+    .item-content .card-body {
+        padding: 20px;
+    }
+    .col-form-label {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .news-logos {padding: 0;flex-wrap: wrap;}
+    .news-logos li {width: 33%;text-align: center;  padding-left: 10px;
+    padding-right: 10px;}
+    .news-logos li:first-child {padding-left: 10px;     width: 48%;}
+.news-logos li:last-child {padding-right: 10px;}
+.news-logos img {max-height: 75px;}
+.skill-ul li {-ms-flex: 0 0 20%;flex: 0 0 20%;max-width: 20%;}
+.card-main {padding: 20px;}
+.rising-talents .media{display: block; text-align: center;}
+.user-xl {width: 70px;height: 70px;margin-bottom: 10px;}
+.card-20 {padding: 15px 15px;}
+.course-xl{width: 60px; }
+.card-main-out{
+    padding: 0;
+}
+
+}
+@media (max-width: 470px) {
+    .header .navbar-expand-lg .navbar-collapse {
+        width: 290px;
+        margin-left: -290px;
+    }
+    .skill-ul li {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+}
+@media (max-width: 400px) {
+    .ver-serch {
+        margin-left: 0;
+    }
+}
+@media (max-width: 375px) {
+    .header .navbar-expand-lg .navbar-collapse {
+        width: 250px;
+        margin-left: -250px;
+    }
+    .header .navbar-collapse .navbar-toggler {
+        width: 52px;
+        height: 52px;
+        left: calc(100% + 15px);
+    }
+    .header .navbar-expand-lg .navbar-nav-wrap-brand {
+        margin-left: 10px;
+    }
+    .btn-hd-course {
+        padding: 5px 4px !important;
+    }
+}
